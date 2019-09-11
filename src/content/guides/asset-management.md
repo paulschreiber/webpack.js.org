@@ -72,7 +72,8 @@ __webpack.config.js__
     output: {
       filename: 'bundle.js',
       path: path.resolve(__dirname, 'dist')
-    },
+-   }
++   },
 +   module: {
 +     rules: [
 +       {
